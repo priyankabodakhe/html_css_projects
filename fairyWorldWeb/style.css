@@ -1,0 +1,59 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(142, 221, 243);
+    min-height: 100vh;
+    
+    border: 10px solid rgb(5, 5, 70);
+  
+}
+
+.top_section h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(9, 53, 21);
+}
+.top_section{
+    margin-top: 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about_section{
+    margin-top: 50px;
+}
+
+.about_section h2{
+    font-size: 40px;
+    font-weight: 400px;
+    margin-bottom: 20px;
+    text-shadow: 5px 3px 5px rgba(77, 79, 88, 0.87);
+}
+
+.about_section p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing:2px ;
+    text-align: justify;
+
+}
+
+.image_container,
+img{
+width: 300px;
+height: 320px;
+}
+
+.image_container{
+    border-radius: 80px;
+    overflow: hidden;
+}
